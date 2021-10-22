@@ -16,7 +16,7 @@ public   WebDriver driver;
 	
 		if(browser_Type.equals("chrome"))
 		{				
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\91973\\eclipse-workspace\\TestNg_DataDriven_Framework\\Browser_Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\91973\\git\\DDF\\TestNg_DataDriven_Framework\\Browser_Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get(Url);				
 		}
